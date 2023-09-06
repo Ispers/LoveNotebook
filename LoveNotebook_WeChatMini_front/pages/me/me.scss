@@ -1,0 +1,109 @@
+.top{
+	background-color: $maincolor;
+	color: #fff;
+	height: 350rpx;
+	// display: flex;
+	position: relative;
+	// padding-left: 25rpx;
+	// view{
+	// 	border: 1px solid #fc5c7d;
+	// }
+	.avatar{
+		position: absolute;
+		left: 30rpx;
+		top: 70rpx
+	}
+	.nickname{
+		font-size: 37rpx;
+		position: absolute;
+		left: 170rpx;
+		top: 97rpx;
+	}
+	.id{
+		position: absolute;
+		top: 145rpx;
+		left: 170rpx;
+		
+		height: 80rpx;
+		display: flex;
+		view{
+			margin-top: 8rpx;
+		}
+	}
+	
+	image{
+		width: 50rpx;
+		height: 50rpx;
+		padding-left: 15rpx;
+	}
+	.days{
+		right: 50rpx;
+		position: absolute;
+		bottom: 15rpx;
+		font{
+			color: #fc5c7d;
+			font-size: 33rpx;
+		}
+	}
+}
+
+.bottom{
+	padding-left: 30rpx;
+	padding-right: 30rpx;
+	.menu{
+		// border: 1px solid #000;
+		height: 140rpx;
+		position: relative;
+		.img1{
+			width: 70rpx;
+			height: 70rpx;
+			position: absolute;
+			left: 20rpx;
+			top:45rpx;
+		}
+		.setting{
+			position: absolute;
+			left: 120rpx;
+			font-size: 33rpx;
+			top:56rpx;
+		}
+		.new{
+			position: absolute;
+			display: flex;
+			left: 510rpx;
+			top: 30rpx;
+			// border: 1px solid #000;
+			width: 200rpx;
+			image{
+				width: 100rpx;
+				height: 90rpx;
+				margin: 0;
+				padding: 0;
+			}
+			view{
+				margin-left: -10rpx;
+				background-color: red;
+				color: #fff;
+				width: 30rpx;
+				height: 30rpx;
+				line-height: 30rpx;
+				text-align: center;
+				border-radius: 50%;
+			}
+			
+		}
+		.img2{
+			width: 50rpx;
+			height: 50rpx;
+			position: absolute;
+			right: 0rpx;
+			top:48rpx;
+		}
+		.line{
+			position: absolute;
+			border-bottom: 1px solid #cdcdcd;
+			top: 140rpx; 
+			width: 100%;
+		}
+	}
+}

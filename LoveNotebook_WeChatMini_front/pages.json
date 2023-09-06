@@ -1,0 +1,135 @@
+{
+	"easycom": {
+		"^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [
+
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationStyle": "custom" ,// 隐藏系统导航栏
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/square_orderDetails/square_orderDetails",
+			"style": {
+				"navigationStyle": "custom" // 隐藏系统导航栏
+			}
+		},
+		{
+			"path": "pages/me_myOrderDetails/me_myOrderDetails",
+			"style": {
+				"navigationStyle": "custom" // 隐藏系统导航栏
+			}
+		},
+		{
+			"path": "pages/me_heart/me_heart",
+			"style": {
+				"navigationStyle": "custom" // 隐藏系统导航栏
+			}
+		},
+		{
+			"path": "pages/me_problem/me_problem",
+			"style": {
+				"navigationStyle": "custom" // 隐藏系统导航栏
+			}
+		},
+		{
+			"path": "pages/me_myOrder/me_myOrder",
+			"style": {
+				"navigationStyle": "custom" // 隐藏系统导航栏
+			}
+		},
+		{
+			"path": "pages/restaurant_order_success/restaurant_order_success",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/restaurant_order/restaurant_order",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/me/me",
+			"style": {
+				"navigationStyle": "custom" // 隐藏系统导航栏
+			}
+		},
+		{
+			"path": "pages/restaurant/restaurant",
+			"style": {
+				"navigationStyle": "custom", // 隐藏系统导航栏
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/square/square",
+			"style": {
+				"navigationStyle": "custom" ,// 隐藏系统导航栏
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/me_editMaterial/me_editMaterial",
+			"style": {
+				"navigationStyle": "custom" // 隐藏系统导航栏
+			}
+		},
+		{
+			"path": "pages/me_editMaterial_nickname/me_editMaterial_nickname",
+			"style": {
+				"navigationStyle": "custom" // 隐藏系统导航栏
+			}
+		},
+		{
+			"path": "pages/restaurant_editRestaurantName/restaurant_editRestaurantName",
+			"style": {
+				"navigationStyle": "custom" // 隐藏系统导航栏
+			}
+		},
+		{
+			"path": "pages/restaurant_addFood/restaurant_addFood",
+			"style": {
+				"navigationStyle": "custom" // 隐藏系统导航栏
+			}
+		},
+		{
+			"path": "pages/restaurant_foodCategoryManage/restaurant_foodCategoryManage",
+			"style": {
+				"navigationStyle": "custom" // 隐藏系统导航栏
+			}
+		},
+		{
+			"path": "pages/crop_picture/crop_picture",
+			"style": {
+				"navigationBarTitleText": "图片裁剪",
+				"navigationBarBackgroundColor": "#000000"
+			}
+		}
+	],
+	"tabBar": {
+		"list": [{
+				"pagePath": "pages/index/index"
+			},
+			{
+				"pagePath": "pages/restaurant/restaurant"
+			},
+			{
+				"pagePath": "pages/square/square"
+			},
+			{
+				"pagePath": "pages/me/me"
+			}
+		]
+	},
+	"globalStyle": {
+		// "navigationBarTextStyle": "white",
+		// "navigationBarTitleText": "uni-app",
+		// "navigationBarBackgroundColor": "#F8F8F8",
+		// "backgroundColor": "#F8F8F8"
+	}
+}

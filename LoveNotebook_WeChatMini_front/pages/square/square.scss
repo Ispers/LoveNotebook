@@ -1,0 +1,62 @@
+.item{
+	background-color: white;
+	border-bottom: 1px solid #f1f1f1;
+	border-top: 1px solid #f1f1f1;
+	padding-top: 20rpx;
+	padding-bottom: 20rpx;
+	.name{
+		color: #000;
+		font-weight: bold;
+		font-size: 35rpx;
+		margin-left: 3%;
+		margin-bottom: 15rpx;
+	}
+	.lovetitle{
+		font-size: 28rpx;
+		text-align: left;
+		text-overflow:ellipsis;
+		overflow: hidden;
+		white-space: nowrap;
+		margin-left: 3%;
+		margin-right: 3%;
+		margin-bottom: 15rpx;
+	}
+	.foodimgs{
+		image{
+			width: 220rpx;
+			height: 220rpx;
+			margin-left: 3%;
+			border-radius: 15rpx;
+		}
+		margin-bottom: 20rpx;
+	}
+	.bottom{
+		margin-left: 3%;
+		display: flex;
+		image{
+			width: 80rpx;
+			height: 80rpx;
+			border-radius: 50%;
+		}
+		.mid{
+			margin-left: 20rpx;
+			.nickname{
+				color: #000;
+				margin-top: 5rpx;
+				margin-bottom: 5rpx;
+			}
+			.time{
+				font-size: 23rpx;
+			}
+		}
+		.right{
+			// border: 1px solid #000;
+			display: flex;
+			margin-left: 43%;
+			view{
+				margin-top: 24rpx;
+				margin-left: 10rpx;
+			}
+		}
+	}
+}

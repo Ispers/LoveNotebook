@@ -1,0 +1,72 @@
+.main{
+	// border: 1px solid #000;
+	background-color: $maincolor;
+	color: #fff;
+	// display: flex;
+	height: 220rpx;
+	position: relative;
+}
+
+.left{
+	position: absolute;
+	left: 25rpx;
+	top: 50rpx;
+	text-align: center;
+}
+
+.middle{
+	position: absolute;
+	right: 25%;
+	top:40%;
+	font-size: 33rpx;
+}
+
+.right{
+	position: absolute;
+	right: 25rpx;
+	top: 50rpx;
+	view{
+		margin-left: 23px;
+		margin-top: 12rpx;
+	}
+	button{
+		padding: 0;
+		background: #fff;
+		line-height: 80rpx;
+		height: 120rpx;
+		width: 120rpx;
+		border-radius: 50%;
+		image{
+			height: 120rpx;
+			width: 120rpx;
+		}
+	}
+}
+
+.warp {
+		display: flex;
+		align-items: center;
+		justify-content: center; 
+		height: 100%;
+		.rect {
+			width: 700rpx;
+			height: 400rpx;
+			background-color: #fff;
+			color: #ec6acc;
+			.text{
+				margin-top: 40rpx;
+				margin-left: 40rpx;
+				font-size: 36rpx;
+			}
+			.input{
+				margin-left: 40rpx;
+				margin-top: 50rpx;
+				width: 600rpx;
+			}
+			.button{
+				margin-left: 40rpx;
+				margin-top: 50rpx;
+				width: 600rpx;
+			}
+		}
+	}

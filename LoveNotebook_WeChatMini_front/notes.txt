@@ -1,0 +1,2 @@
+2023.05.17-----
+me_editMaterial文件发布前需修改onChooseAvatar()的uni.uploadFile()的url地址 
